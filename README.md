@@ -42,3 +42,5 @@ finally:
 python tests\common\logger_test.py
 
 ## 代码规范
+
+[参考Google Python Style](https://github.com/pauljoo/styleguide/blob/gh-pages/pyguide.md)
