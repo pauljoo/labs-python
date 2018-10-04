@@ -2,11 +2,13 @@
 
 ## 虚拟环境
 
+```
 conda info -e
 conda create --name python_sample python=3.6.1
 activate python_sample
 deactivate python_sample
 conda remove --name python_sample --all
+```
 
 ## 依赖
 
@@ -24,6 +26,7 @@ logger.build("test").info("aaa")
 
 ## 异常捕捉
 
+```
 try:
   print('try...')
   r = 10 / 0
@@ -32,6 +35,7 @@ except ZeroDivisionError as e:
   print('except:', e)
 finally:
   print('finally...')
+```
 
 ## 单元测试
 
